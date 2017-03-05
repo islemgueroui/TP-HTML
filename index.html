@@ -1,9 +1,226 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Islem GUEROUI - CV</title>
+		<meta charset="utf-8"/>
+		<link rel = "stylesheet" href= "cv.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="cv.js""></script>
 	</head>
 	<body>
-		<h1>My First Heading</h1>
-		<p>My first paragraph.</p>
+		<header>
+			<div id = "nom">Islem <strong>GUEROUI</strong></div>
+			<div id = "coordonnees">
+				<div id = "mail">
+					<img src="mail.png" id = "img-mail"/> 
+					<div class = "coord-texte">islem.guero@gmail.com</div>
+				</div>
+				<div id = "adresse">
+					<img src="adresse.png" id = "img-adresse"/> 
+					<div class = "coord-texte">189 rue Francis de Pressens&eacute; 69100 Villeurbanne</div>
+				</div>
+				<div id = "numero">
+					<img src="tel.png" id = "img-numero"/> 
+					<div class = "coord-texte">+33 7 68 22 40 45</div>
+				</div>
+			</div>
+			<img src="islem.png" alt="Islem GUEROUI" id = "photo"/> 
+		</header>
+		<div id="titre">24 ANS, CÉLIBATAIRE<br>INGÉNIEUR DOUBLE COMPÉTENCE INFORMATIQUE/MÉCANIQUE AEROSPATIALE</div>
+		<div id="gauche">
+			<div id="experiences">
+				<h2>EXPÉRIENCES PROFESSIONNELLES <button style="font-size: 50%;" onclick="afficher('li_experiences');">cacher</button></h2>
+				<ul id="li_experiences">
+					<li>
+						<div>
+							<div class="intitule">
+								Stagiaire au Laboratoire d’Astrophysique de Marseille en association avec le 
+								Centre National d'Etudes Spatiales
+							</div>
+							<div class="date">
+								Mars.2016 - Sept.2016
+							</div>
+							<div class="description">
+								Achever la phase B du projet nano-satellite CASAA-Sat.<br>
+								Etablir le système de commande d'attitude et d'orbite (SCAO), consolider la partie 
+								thermique/énergétique, estimer les périodes de visibilité et rédaction de la documentation 
+								technique (utilisation de MATLAB, SCILAB, Mathematica et VTS).
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								Freelancer sur upwork.com travaillant avec des clients de par le monde (April Canada, 
+								indeed, Google…)
+							</div>
+							<div class="date">
+								Juin.2014 - Sept.2016
+							</div>
+							<div class="description">
+								Principalement en tant qu’assistant administratif.
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								Stagiaire à l’Institut Universitaire des Systèmes Thermiques Industriels - Aix-Marseille Université
+							</div>
+							<div class="date">
+								Févr.2015 - Juin.2015
+							</div>
+							<div class="description">
+								Etude numérique et optimisation du désenfumage d’une station de métro (Cinq Avenues Longchamps - 
+								Marseille) en cas d’incendie (utilisation de FDS, Smokeview et de BlenderFDS).
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								Stagiaire au niveau de l’unité de TG Hamma II à la Société de Production de l’Electricité, SONELGAZ
+							</div>
+							<div class="date">
+								Août.2014
+							</div>
+							<div class="description">
+								Description de la centrale et des dispositifs de secours.
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="competences">
+				<h2>COMPÉTENCES INFORMATIQUES <button style="font-size: 50%;" onclick="afficher('li_competences');">cacher</button></h2>
+				<ul id="li_competences">
+					<li>C/C++ : expérimenté</li>
+					<li>Java : expérimenté</li>
+					<li>JEE : débutant</li>
+					<li>XML : moyen</li>
+					<li>HTML/CSS : expérimenté</li>
+					<li>Oracle SQL : moyen</li>
+					<li>Script SHELL : moyen</li>
+					<li>UML : moyen</li>
+					<li>Réseaux : moyen</li>
+					<li>MATLAB : expérimenté</li>
+					<li>SCILAB : expérimenté</li>
+					<li>Mathematica : moyen</li>
+					<li>Suite MS Office : expérimenté</li>
+					<li>Catia V5 : moyen</li>
+				</ul>
+			</div>
+		</div>
+		<div id="droite">
+			<div id="formations">
+				<h2>FORMATIONS <button style="font-size: 50%;" onclick="afficher('li_formations');">cacher</button></h2>
+				<ul id="li_formations">
+					<li>
+						<div>
+							<div class="etablissement">
+								Université Claude-Bernard Lyon 1
+							</div>
+							<div class="date">
+								2016-2017
+							</div>
+							<div class="description">
+								Master 2 Compétences Complémentaires en Informatique.
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="etablissement">
+								Aix-Marseille Université
+							</div>
+							<div class="date">
+								2015-2016
+							</div>
+							<div class="description">
+								Master 2 en Aéronautique et Espace.
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="etablissement">
+								École Nationale Polytechnique d’Alger
+							</div>
+							<div class="date">
+								2012-2015
+							</div>
+							<div class="description">
+								Ingénieur d’État en Génie Mécanique.<br>
+								Master 2 en Énergétique (préparé en parallèle).
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="etablissement">
+								École Préparatoire Sciences et Techniques d’Alger
+							</div>
+							<div class="date">
+								2010-2012
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id="langues">
+				<h2>LANGUES <button style="font-size: 50%;" onclick="afficher('li_langues');">cacher</button></h2>
+				<ul id="li_langues">
+					<li>Arabe : langue maternelle</li>
+					<li>Français : bilingue</li>
+					<li>Anglais : avancé (TOEIC L&amp;R : 925)</li>
+				</ul>
+			</div>
+			<div id="activites">
+				<h2>ACTIVITÉS <button style="font-size: 50%;" onclick="afficher('li_activites');">cacher</button></h2>
+				<ul id="li_activites">
+					<li>
+						<div>
+							<div class="intitule">
+								Prix de la meilleure idée innovante
+							</div>
+							<div class="description">
+								Responsable du département IT au sein d’une entreprise junior participant à la compétition d’Injaz el Arab (Algérie)
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								1er prix iStart OOREDOO
+							</div>
+							<div class="description">
+								Journée d’initiation à la programmation mobile Android sponsorisée par OOREDOO
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								Pratiques sportives
+							</div>
+							<div class="description">
+								Cardio-training<br>Natation
+							</div>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="intitule">
+								Centres d'interets
+							</div>
+							<div class="description">
+								Informatique/technologies<br>Cinéma<br>Culture vidéoludique
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>
+

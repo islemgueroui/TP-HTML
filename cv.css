@@ -1,0 +1,92 @@
+body{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header{
+	background-color:#EAEAEA;
+	height:250px;
+}
+
+#nom{
+	float:left;
+	width:20%;
+	font-size:28px;
+	margin-top:180px;
+	padding-left:10%;
+}
+
+#photo{
+	height:250px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#coordonnees{
+	float:right;
+	width:30%;
+	font-size:24px;
+}
+
+#img-mail, #img-adresse, #img-numero{
+	float : left;
+	width:40px;
+}
+
+#mail, #adresse, #numero{
+	margin-top : 35px;
+	margin-bottom : 35px;
+}
+
+#titre{
+	padding-top:20px;
+	text-align: center;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#gauche{
+	width:57%;
+	float:left;
+}
+
+.coord-texte{
+	padding-left:15%;
+}
+
+.intitule{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.date{
+	color:#1A87A5;
+	font-size:18px;
+}
+
+.description{
+	padding-bottom:20px;
+	font-size:18px;
+}
+
+#li_competences{
+	font-size:20px;
+	font-weight:bold;
+}
+
+#droite{
+	width:37%;
+	float:right;
+}
+
+.etablissement{
+	font-size:20px;
+	font-weight:bold;
+}
+
+#li_langues{
+	font-size:20px;
+	font-weight:bold;
+}
