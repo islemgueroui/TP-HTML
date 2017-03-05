@@ -90,3 +90,8 @@ header{
 	font-size:20px;
 	font-weight:bold;
 }
+
+textarea{
+	width:500px;
+	resize: none;
+}

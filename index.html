@@ -110,6 +110,42 @@
 					<li>Catia V5 : moyen</li>
 				</ul>
 			</div>
+			<div>
+				<h2>FORMULAIRE DE CONTACTE <button style="font-size: 50%;" onclick="afficher('formulaire');">cacher</button></h2>
+				<form id="formulaire">
+					<table>
+						<tr>
+							<td>Nom et prénom : </td>
+							<td>
+								<input type="text" name="form_nom" id="form_nom"/>
+							</td>
+						</tr>
+						<tr>
+							<td>Adresse mail : </td>
+							<td>
+								<input type="text" name="form_mail" id="form_mail"/>
+							</TD>
+						</tr>
+						<tr>
+							<td>Numéro de téléphone : </td>
+							<td>
+								<input type="text" name="form_numero" id="form_numero"/>
+							</TD>
+						</tr>
+						<tr>
+							<td>Message : </td>
+							<td>
+								<textarea name="form_message" rows="3"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td COLSPAN=2>
+								<input type="button" value="Soumettre" onclick="validation()">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
 		</div>
 		<div id="droite">
 			<div id="formations">
